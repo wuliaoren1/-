@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="dep/jquery.js"></script>
+    <script src="dep/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-position="fixed">
+          <img src="images/logo.png" alt="" class="logo">
+          <h1>欢迎来到撩聊聊天</h1>
+        </div>
+      
+        <div data-role="main" class="ui-content">
+            <div class="login">
+                <fieldset>
+                    <form action="info.html" method="POST" data-ajax=false>
+                        <br><br>
+                        <input type="text" name="name" id="name" required placeholder="请输入账号"><br>
+                        <input type="password" name="pwd" id="pwd" required placeholder="请输入密码"><br>
+                        <input type="checkbox" checked data-role="flipswitch" name="switch" id="switch">
+                        <span>记住密码</span>
+                        <input type="checkbox" data-role="flipswitch" name="switch" id="switch">
+                        <span>自动登录</span>
+                        <button type="submit" class="loginBtn">登录</button>
+                        <div class="bot">
+                            <a href="info.html" class="leftBtn" data-ajax="false">个人信息</a>
+                            <a href="register.html" class="rightBtn" data-ajax="false">注册账号</a>
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+      
+        <div data-role="footer" data-position="fixed">
+          <h3>Copyright © 2019-2019 撩聊聊天APP  All Rights Reserved. 备案号：鲁ICP备01234567号-1</h3>
+        </div>
+    </div>>
+</body>
+</html>

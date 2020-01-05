@@ -1,0 +1,73 @@
+@media screen and (max-width:1430px){
+    .perBox{
+        width: 75% !important;
+    }
+    .rigBtnBox{
+        width: 120px !important;
+    } 
+}
+@media screen and (max-width:1000px){
+    .perBox{
+        width: 70% !important;
+    }
+    .rigBtnBox{
+        width: 100px !important;
+    } 
+}
+@media screen and (max-width:700px){
+    .perBox{
+        width: 50% !important;
+    }
+    .rigBtnBox{
+        width: 90px !important;
+    }
+}
+@media screen and (max-width:400px){
+    .perBox{
+        width: 60% !important;
+    }
+    .rigBtnBox{
+        width: 60px !important;
+    }
+    .chatBtn::after{
+        display: none; 
+    }
+    .chatBtn{
+        padding-left: 10px !important;
+    }
+    .deleteBtn::after{
+        display: none; 
+    }
+    .deleteBtn{
+        padding-left: 10px !important;
+    }
+}
+.logo{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.friends button{
+    display: inline-block;
+}
+.perBox{
+    width: 80%;
+    display: inline-block;
+}
+.friends .personBtn span{
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+.rigBtnBox{
+    width: 140px;
+    display: inline-block;
+}
+.deleteBtn{
+    width: 45%;
+}
+.chatBtn{
+    width: 45%;
+}

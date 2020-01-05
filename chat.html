@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <script src="dep/jquery.js"></script>
+    <script src="dep/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/chat.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-position="fixed">
+          <img src="images/logo.png" alt="" class="logo">
+          <h1 class="txt">姓名</h1>
+          <p class="net">手机在线-4G</p>
+        </div>
+      
+        <div data-role="main" class="ui-content">
+          <div class="message">
+            <div class="me"><p class="myMes mes">你好！</p><div class="myHead head"></div></div>
+            <div class="friend"><div class="friHead head"></div><p class="friMes mes">你也好！</p></div>
+          </div>
+          <div class="inMes"><input type="text" class="writeMes"></div>
+          <button class="sendMes ui-btn ui-icon-heart ui-btn-icon-left">发送</button>
+        </div>
+      
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                  <li><a href="#" data-icon="comment" class="autoCli" data-ajax=false>聊天</a></li>
+                  <li><a href="friends.html" data-icon="user" data-ajax=false>联系人</a></li>
+                  <li><a href="register.html" data-icon="edit" data-ajax=false>注册</a></li>
+                  <li><a href="info.html" data-icon="info" data-ajax=false>个人信息</a></li>
+                </ul>
+              </div>
+        </div>
+    </div> 
+</body>
+</html>

@@ -1,0 +1,82 @@
+@media screen and (max-width:1400px){
+    .inMes{
+        width: 85% !important;
+    }
+}
+@media screen and (max-width:1000px){
+    .inMes{
+        width: 80% !important;
+    }
+}
+@media screen and (max-width:800px){
+    .inMes{
+        width: 70% !important;
+    }
+}
+@media screen and (max-width:500px){
+    .inMes{
+        width: 55% !important;
+    }
+}
+.logo{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.net{
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+    text-align: center;
+}
+.head{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #aaa;
+    box-sizing: border-box;
+}
+.mes{
+    margin: 0;
+    padding: 0 10px;
+    padding-bottom: 0;
+    vertical-align: text-bottom;
+    line-height: 50px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:auto  10px;
+    margin-top: 2px;
+}
+.friHead{
+    background: url("../images/touxiang2.jpg") 0 0 repeat;
+    background-size: 50px 50px;
+}
+.myHead{
+    background: url("../images/touxiang.jpg") 0 0 repeat;
+    background-size: 50px 50px;
+}
+.me{
+    text-align: right;
+}
+body{
+    position: relative;
+}
+.inMes{
+    width: 90%;
+    position: absolute;
+    left:10px;
+    bottom: 60px;
+}
+.sendMes{
+    display: inline-block;
+    width: 120px !important;
+    position: absolute;
+    font-size: 14px;
+    right:10px;
+    bottom: 60px;
+    border-radius: 10px;
+}

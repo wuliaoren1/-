@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/info.css">
+    <script src="dep/jquery.js"></script>
+    <script src="dep/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/info.js"></script>
+    
+</head>
+<body>
+    <!-- 头部 -->
+    <div data-role="page">
+        <div data-role="header" data-position="fixed">
+          <img src="images/logo.png" alt="" class="logo">
+          <h1>个人信息</h1>
+        </div>
+    
+    <!-- 内容 -->
+    <div data-role="main" class="ui-content"> 
+      <div class="head"></div>
+      <ul data-role="listview" data-inset="true">    
+        <li data-icon="false" class="name">姓名：</li>
+        <li data-icon="false" class="pwd">密码：</li>
+        <li data-icon="false" class="age">年龄：</li>
+        <li data-icon="false" class="sex">性别：</li>
+        <li data-icon="false" class="color">喜欢的颜色：</li>
+        <li data-icon="false" class="labs">标签：
+          <div class="labBox">
+            <button class="lab">爱国</button>
+            <button class="lab">敬业</button>
+            <button class="lab">诚信</button>
+            <button class="lab">友善</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- 尾部 -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+              <li><a href="chat.html" data-icon="comment" data-ajax=false>聊天</a></li>
+              <li><a href="friends.html" data-icon="user" data-ajax=false>联系人</a></li>
+              <li><a href="register.html" data-icon="edit" data-ajax=false>注册</a></li>
+              <li><a href="#" data-icon="info" class="autoCli" data-ajax=false>个人信息</a></li>
+            </ul>
+          </div>
+    </div>
+    </div> 
+</body>
+</html>

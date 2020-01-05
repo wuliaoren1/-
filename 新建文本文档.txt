@@ -1,0 +1,3 @@
+所用技术  css3 + jquery + jquery mobile
+
+qq  1421826010
